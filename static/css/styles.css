@@ -153,6 +153,11 @@ time {
   box-shadow: 0 -1px 0 #bbbbbb inset;
 }
 
+#container main article a {
+  text-decoration: underline;
+  color: #3a5577;
+}
+
 #container main article pre code {
   font-size: 0.9em;
 }
