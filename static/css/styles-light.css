@@ -157,6 +157,12 @@ time {
   font-size: 0.9em;
 }
 
+#container main article a {
+  color: #1d39a8;
+  text-decoration: underline;
+}
+
+
 #container main article p code {
   padding: 0.2em;
   background-color: #ffcccc;
@@ -240,7 +246,7 @@ width: 100%;
 .meta-aside, #container main section#home ul li aside, #container main article aside {
   margin: 0.5em 0;
   font-family: system-ui;
-  color: #909090;
+  color: #595959;
   font-size: 0.8em;
 }
 
@@ -256,7 +262,7 @@ width: 100%;
 }
 
 a {
-  color: #666666;
+  color: #484848;
   text-decoration: none;
 }
 
