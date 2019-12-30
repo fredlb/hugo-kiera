@@ -2,9 +2,9 @@
 <link rel="shortcut icon" href="{{ . }}" />
 {{ end }}
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+  integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
 <link rel="stylesheet" type="text/css" href="{{ "css/styles.css" | relURL}}" />
-<link rel="stylesheet" type="text/css" href="{{ "css/system-font.css" | relURL}}" />
 {{- range .Site.Params.customCSS -}}
 <link rel='stylesheet' href='{{ . | absURL }}'>
 {{- end -}}
