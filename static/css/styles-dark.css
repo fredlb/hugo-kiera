@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  font-family: "Roboto Slab", serif;
+  font-family: system-ui, 'sans-serif';
   color: #ffffff;
   background: #2A2829;
 }
@@ -14,7 +14,6 @@ h4,
 h5,
 h6,
 time {
-  font-family: "Ruda", sans-serif;
 }
 
 #container {
@@ -74,7 +73,7 @@ time {
 #container nav {
   border-bottom: solid 3px #cecece;
   padding-bottom: 0.5em;
-  font-family: "Ruda", sans-serif;
+  font-family: system-ui;
 }
 
 #container nav ul {
@@ -159,6 +158,11 @@ time {
   font-size: 0.9em;
 }
 
+#container main article a {
+  color: #ffbc65;
+  text-decoration: underline;
+}
+
 #container main article p code {
   padding: 0.2em;
   background-color: #ffcccc;
@@ -179,11 +183,6 @@ time {
   border-image: none;
   border-radius: 3px;
   box-shadow: 0 -1px 0 #bbbbbb inset;
-}
-
-#container main article a {
-  color: #ffbc65;
-  text-decoration: underline;
 }
 
 #container main h1 {
@@ -246,7 +245,7 @@ width: 100%;
 
 .meta-aside, #container main section#home ul li aside, #container main article aside {
   margin: 0.5em 0;
-  font-family: "Ruda", sans-serif;
+  font-family: system-ui;
   color: #909090;
   font-size: 0.8em;
 }
@@ -394,7 +393,6 @@ blockquote {
 
 blockquote::before {
   content: "\f10d";
-  font-family: "Font Awesome 5 Free";
   font-weight: 900;
   font-size: 3em;
   color: rgba(192, 192, 192, 0.3);
